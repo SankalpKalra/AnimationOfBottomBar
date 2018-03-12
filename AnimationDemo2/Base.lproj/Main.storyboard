@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimationDemo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DarkSky" translatesAutoresizingMaskIntoConstraints="NO" id="hzF-u2-iNN">
+                                <rect key="frame" x="0.0" y="44" width="375" height="708"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qly-6e-nb6" userLabel="Paper">
+                                <rect key="frame" x="0.0" y="752" width="375" height="120"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wc9-0r-kFS" userLabel="ButtonVIew">
+                                        <rect key="frame" x="165" y="0.0" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DN-ng-AsM">
+                                        <rect key="frame" x="166" y="0.0" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" image="dropDown"/>
+                                        <connections>
+                                            <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9f7-O3-xT4"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ldb-OE-zU6" userLabel="ButtonView">
+                                        <rect key="frame" x="0.0" y="62" width="375" height="58"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEW-Pf-T6M">
+                                                <rect key="frame" x="32.666666666666664" y="9" width="39.999999999999993" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="KJQ-Vd-XxW"/>
+                                                    <constraint firstAttribute="width" constant="40" id="vSU-Cn-XlW"/>
+                                                </constraints>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fbNew" translatesAutoresizingMaskIntoConstraints="NO" id="lha-TF-SJH">
+                                                <rect key="frame" x="32" y="9.6666666666666288" width="40" height="40"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOR-f3-LZk">
+                                                <rect key="frame" x="122.66666666666669" y="9" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="Znx-3M-Ydk"/>
+                                                    <constraint firstAttribute="height" constant="40" id="zx3-9j-kfq"/>
+                                                </constraints>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whatsapp" translatesAutoresizingMaskIntoConstraints="NO" id="r7m-vg-c6g">
+                                                <rect key="frame" x="122.66666666666669" y="9" width="40" height="40"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xe-In-ZId">
+                                                <rect key="frame" x="212.66666666666666" y="9" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="ca8-xT-bNs"/>
+                                                    <constraint firstAttribute="height" constant="40" id="gvD-1Z-hG6"/>
+                                                </constraints>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="iQx-5M-o72">
+                                                <rect key="frame" x="212.66666666666666" y="9" width="40" height="40"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfb-QE-Dt1">
+                                                <rect key="frame" x="302.66666666666669" y="9" width="39.333333333333314" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="Eia-Uz-0Kp"/>
+                                                    <constraint firstAttribute="height" constant="40" id="rgh-MD-Z4L"/>
+                                                </constraints>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skype" translatesAutoresizingMaskIntoConstraints="NO" id="anz-xi-0jq">
+                                                <rect key="frame" x="302.33333333333331" y="9" width="40" height="40"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0039840922690927982" green="0.58722472190856934" blue="0.99945849180221558" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="r7m-vg-c6g" firstAttribute="centerY" secondItem="pOR-f3-LZk" secondAttribute="centerY" id="4Y4-hI-nIv"/>
+                                            <constraint firstItem="anz-xi-0jq" firstAttribute="width" secondItem="mfb-QE-Dt1" secondAttribute="width" id="5OY-5N-iPn"/>
+                                            <constraint firstItem="iQx-5M-o72" firstAttribute="height" secondItem="8xe-In-ZId" secondAttribute="height" id="APf-XX-jTe"/>
+                                            <constraint firstItem="r7m-vg-c6g" firstAttribute="height" secondItem="pOR-f3-LZk" secondAttribute="height" id="Afn-uk-3Qx"/>
+                                            <constraint firstItem="mfb-QE-Dt1" firstAttribute="width" secondItem="8xe-In-ZId" secondAttribute="width" id="G1M-Lj-aRT"/>
+                                            <constraint firstItem="r7m-vg-c6g" firstAttribute="centerX" secondItem="pOR-f3-LZk" secondAttribute="centerX" id="I6D-6b-XlB"/>
+                                            <constraint firstItem="anz-xi-0jq" firstAttribute="height" secondItem="mfb-QE-Dt1" secondAttribute="height" id="ITa-Qd-dES"/>
+                                            <constraint firstItem="anz-xi-0jq" firstAttribute="centerY" secondItem="mfb-QE-Dt1" secondAttribute="centerY" id="KqT-7M-bGg"/>
+                                            <constraint firstItem="anz-xi-0jq" firstAttribute="centerX" secondItem="mfb-QE-Dt1" secondAttribute="centerX" id="TY2-SV-bkK"/>
+                                            <constraint firstItem="r7m-vg-c6g" firstAttribute="width" secondItem="pOR-f3-LZk" secondAttribute="width" id="UsV-EZ-lH0"/>
+                                            <constraint firstItem="mfb-QE-Dt1" firstAttribute="centerY" secondItem="8xe-In-ZId" secondAttribute="centerY" id="Vf4-Be-TJW"/>
+                                            <constraint firstItem="pOR-f3-LZk" firstAttribute="leading" secondItem="MEW-Pf-T6M" secondAttribute="trailing" constant="50" id="WjZ-hD-pKh"/>
+                                            <constraint firstItem="8xe-In-ZId" firstAttribute="leading" secondItem="pOR-f3-LZk" secondAttribute="trailing" constant="50" id="cXZ-q7-In4"/>
+                                            <constraint firstItem="iQx-5M-o72" firstAttribute="width" secondItem="8xe-In-ZId" secondAttribute="width" id="edA-UK-wxz"/>
+                                            <constraint firstItem="lha-TF-SJH" firstAttribute="width" secondItem="MEW-Pf-T6M" secondAttribute="width" id="eqH-K9-qaU"/>
+                                            <constraint firstItem="8xe-In-ZId" firstAttribute="centerY" secondItem="pOR-f3-LZk" secondAttribute="centerY" id="fCh-AS-sdh"/>
+                                            <constraint firstItem="lha-TF-SJH" firstAttribute="centerY" secondItem="MEW-Pf-T6M" secondAttribute="centerY" id="fQN-QE-Z30"/>
+                                            <constraint firstAttribute="trailing" secondItem="mfb-QE-Dt1" secondAttribute="trailing" constant="32.5" id="fZd-d9-fAF"/>
+                                            <constraint firstItem="iQx-5M-o72" firstAttribute="centerX" secondItem="8xe-In-ZId" secondAttribute="centerX" id="iVM-qi-3gd"/>
+                                            <constraint firstItem="lha-TF-SJH" firstAttribute="centerX" secondItem="MEW-Pf-T6M" secondAttribute="centerX" id="k4M-Gj-J9B"/>
+                                            <constraint firstItem="pOR-f3-LZk" firstAttribute="centerY" secondItem="MEW-Pf-T6M" secondAttribute="centerY" id="nQz-y1-ruF"/>
+                                            <constraint firstItem="lha-TF-SJH" firstAttribute="height" secondItem="MEW-Pf-T6M" secondAttribute="height" id="rnW-21-fUx"/>
+                                            <constraint firstItem="iQx-5M-o72" firstAttribute="centerY" secondItem="8xe-In-ZId" secondAttribute="centerY" id="t31-0D-ds1"/>
+                                            <constraint firstItem="mfb-QE-Dt1" firstAttribute="leading" secondItem="8xe-In-ZId" secondAttribute="trailing" constant="50" id="vZy-zC-6ct"/>
+                                            <constraint firstItem="MEW-Pf-T6M" firstAttribute="leading" secondItem="Ldb-OE-zU6" secondAttribute="leading" constant="32.5" id="vds-Vi-kd3"/>
+                                            <constraint firstItem="MEW-Pf-T6M" firstAttribute="centerY" secondItem="Ldb-OE-zU6" secondAttribute="centerY" id="xnh-vB-bly"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Ldb-OE-zU6" secondAttribute="bottom" id="2RL-fc-eEs"/>
+                                    <constraint firstItem="Ldb-OE-zU6" firstAttribute="top" secondItem="Qly-6e-nb6" secondAttribute="top" constant="62" id="RVk-e2-gtU"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ldb-OE-zU6" secondAttribute="trailing" id="X0T-mg-Auf"/>
+                                    <constraint firstAttribute="height" constant="120" id="YYh-L0-qmv"/>
+                                    <constraint firstItem="Ldb-OE-zU6" firstAttribute="leading" secondItem="Qly-6e-nb6" secondAttribute="leading" id="zJ6-I1-wHl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hzF-u2-iNN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="51P-v3-eUP"/>
+                            <constraint firstItem="Qly-6e-nb6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DZI-Jp-ID1"/>
+                            <constraint firstItem="Qly-6e-nb6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QEL-Os-2GP"/>
+                            <constraint firstAttribute="bottom" secondItem="Qly-6e-nb6" secondAttribute="bottom" constant="-60" id="WyO-qZ-jWp"/>
+                            <constraint firstItem="hzF-u2-iNN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XYI-3x-PFq"/>
+                            <constraint firstItem="hzF-u2-iNN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gfj-yy-rWl"/>
+                            <constraint firstItem="Qly-6e-nb6" firstAttribute="top" secondItem="hzF-u2-iNN" secondAttribute="bottom" id="hW7-xD-rUK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonFour" destination="MEW-Pf-T6M" id="hKe-Qa-UcQ"/>
+                        <outlet property="buttonOne" destination="mfb-QE-Dt1" id="G6O-37-7Iq"/>
+                        <outlet property="buttonOutlet" destination="1DN-ng-AsM" id="kqZ-Pw-NHg"/>
+                        <outlet property="buttonThree" destination="pOR-f3-LZk" id="7O2-5r-ONH"/>
+                        <outlet property="buttonTwo" destination="8xe-In-ZId" id="Wrn-Ql-pKs"/>
+                        <outlet property="buttonView" destination="Wc9-0r-kFS" id="2xQ-9U-W8T"/>
+                        <outlet property="fbImage" destination="lha-TF-SJH" id="Qex-7h-9eg"/>
+                        <outlet property="paper" destination="Qly-6e-nb6" id="cZI-nr-SfQ"/>
+                        <outlet property="skypeImage" destination="anz-xi-0jq" id="S2E-UN-tH8"/>
+                        <outlet property="twitterImage" destination="iQx-5M-o72" id="Lcg-Zh-PfD"/>
+                        <outlet property="whatsappImage" destination="r7m-vg-c6g" id="bEt-3U-eEU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1063.2" y="15.517241379310345"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DarkSky" width="4256" height="2393"/>
+        <image name="dropDown" width="512" height="512"/>
+        <image name="fbNew" width="256" height="256"/>
+        <image name="skype" width="512" height="512"/>
+        <image name="twitter" width="512" height="512"/>
+        <image name="whatsapp" width="512" height="512"/>
+    </resources>
+</document>
